@@ -1,5 +1,5 @@
-# Jekyll Up
-> Get up and running with a minimal Jekyll site scaffold
+# Lionheart Finances
+> The official website for Lionheart Finances
 
 ## Build
 [Jekyll](https://jekyllrb.com) is a Ruby Gem that can be installed on most systems.
