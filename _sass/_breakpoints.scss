@@ -1,9 +1,12 @@
 // Group media query definitions
 
 @media (min-width: 540px) {
-  // @include component-example;
+  @include base-md;
+  @include spacing-md;
+  @include utilities-md;
 }
 
 @media (min-width: 768px) {
-
+  @include spacing-lg;
+  @include utilities-lg;
 }

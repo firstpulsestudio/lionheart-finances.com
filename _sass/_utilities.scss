@@ -105,3 +105,19 @@
 
 .absolute { position: absolute; }
 .relative { position: relative; }
+
+@mixin utilities-md {
+  .md-flex { display: flex; }
+
+  .md-h1 { font-size: $h1; }
+  .md-h2 { font-size: $h2; }
+  .md-h3 { font-size: $h3; }
+  .md-h4 { font-size: $h4; }
+  .md-h5 { font-size: $h5; }
+  .md-h6 { font-size: $h6; }
+  .md-h7 { font-size: $h7; }
+}
+
+@mixin utilities-lg {
+  .lg-flex { display: flex; }
+}

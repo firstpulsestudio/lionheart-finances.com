@@ -41,3 +41,11 @@ a {
   width: 540px;
   z-index: 1;
 }
+
+@mixin base-md {
+  .logo-bg {
+    left: auto;
+    right: 2rem;
+    width: 420px;
+  }
+}
