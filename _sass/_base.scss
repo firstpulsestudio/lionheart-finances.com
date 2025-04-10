@@ -4,6 +4,8 @@
 }
 
 body {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
   font-family: $font-primary;
   line-height: 1.25;
 }
@@ -53,6 +55,10 @@ a {
 
 .crop {
   border-radius: 100%;
+}
+
+.sc-hTUWRQ .etzlzz .commonninja-ribbon {
+  display: none !important;
 }
 
 @mixin base-md {
