@@ -3,5 +3,7 @@ title: Lionheart Finances
 # https://github.com/jekyll/jekyll/issues/7478#issuecomment-454419470
 theme: null
 
+url: https://firstpulsestudio.github.io/lionheartfinances/
+
 sass:
   style: compressed
