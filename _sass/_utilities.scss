@@ -79,7 +79,7 @@
 .measure    { max-width: 32em; }
 .measure-sm { max-width: 24em; }
 .nowrap     { white-space: nowrap; }
-.uppercase  { letter-spacing: .5em; text-transform: uppercase; }
+.uppercase  { letter-spacing: .25em; text-transform: uppercase; }
 
 //
 // Color
@@ -121,5 +121,12 @@
 @mixin utilities-lg {
   .lg-flex { display: flex; }
 
-  .lg-width-50 { width: 50%; }
+  .lg-width-25  { width: 25%; }
+  .lg-width-40  { width: 40%; }
+  .lg-width-50  { width: 50%; }
+  .lg-width-60  { width: 60%; }
+  .lg-width-75  { width: 75%; }
+  .lg-width-100 { width: 100%; }
+
+  .lg-text-center  { text-align: center; }
 }

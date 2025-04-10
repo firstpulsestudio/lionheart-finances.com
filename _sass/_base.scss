@@ -44,8 +44,11 @@ a {
 
 .alert {
   border: 1px solid;
-  border-radius: 1rem;
+  border-radius: .5rem;
+  font-size: .5rem;
+  font-weight: 600;
   padding: .25rem .5rem;
+  vertical-align: top;
 }
 
 .crop {
@@ -57,5 +60,9 @@ a {
     left: auto;
     right: 2rem;
     width: 420px;
+  }
+
+  .crop {
+    margin-left: auto;
   }
 }
