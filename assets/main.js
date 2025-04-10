@@ -4,6 +4,5 @@ document.addEventListener('DOMContentLoaded', function () {
     if (ribbon) {
       ribbon.setAttribute('style', 'display: none !important;')
     }
-  }, 1000) // Waits 1 second before running
+  }, 1000)
 })
-
